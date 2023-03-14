@@ -1,0 +1,44 @@
+:root{
+    --cor-topo: #1C0F37;
+    --cor-corpo: #2a6eae6d;
+    --cor-branca: white;
+    --cor-rodape: #4B7DAB;
+    --padding-20px: 20px;
+
+}
+
+* {
+    /*tirar os espaçametos total do site*/
+    margin: 0px;
+    padding: 0px;
+    transition: all 1s;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#cabecalho{
+    background-color: var(--cor-topo);
+    /* display flex deixa em linha, space-between ajusta a linha e o aling itens centraliza*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#cabecalho nav a {
+    text-decoration: none;
+    color: var(--cor-branca);
+    padding: 5px;
+    border-radius: 15px;
+    background-color: var(--cor-corpo);
+}
+
+.telainicial {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.telainicial img {
+    max-width: 100%;
+}

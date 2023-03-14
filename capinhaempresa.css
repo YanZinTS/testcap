@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --cor-topo: #1C0F37;
+    --cor-branca: white;
+    --cor-botao: #37D833;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: var(--cor-topo);
+}
+
+.cabecalho .botoes{
+    display: flex;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.cabecalho .meio{
+    margin: 10px 20px;
+}
+
+.botoes a{
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+
+.cabecalho .botoes a{
+    background-color: white;
+    cursor: pointer;
+
+}
+
+#corpo .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#corpo .titulo{
+    display: flex;
+    justify-content: right;
+    padding: 15px;
+    font-size: 50px;
+    font-weight: large;
+}
+
+.cabecalho figure img{
+    border-radius: 30px;
+}
+
+#corpo .fichatecnica p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 28px;
+    padding-left: 39px;
+}
+
+#corpo .fichatecnica img{
+    height: 650px;
+}
+
+#corpo .pagamento{
+    display: flex;
+    justify-content: right;
+    padding: 20px;
+    margin-right: 100px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 82px;
+    margin-bottom: 0px;
+    margin-top: 140px;
+}
+
+#corpo .parcela{
+    display: flex;
+    justify-content: right;
+    margin-right: 150px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27px;
+    margin-top: 10px;
+}
+
+#corpo .botaobanner{
+    color: white;
+    margin-top: 30px;
+    margin-left: 0px;
+    background-color: #37D833;
+    width: 350px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bolder;
+    font-size: x-large;
+    height: 100px;
+    width: 400px;
+}
+
+#corpo .garantia{
+    text-align: center;
+    margin-top: 90px;
+    margin-right: 90px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+#corpo .descricao{
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 28px;
+    text-align: justify;
+}

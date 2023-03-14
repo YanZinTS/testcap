@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root{
+    --cor-topo: #1C0F37;
+    --cor-corpo: #2a6eae6d;
+    --cor-branca: white;
+    --cor-rodape: #4B7DAB;
+    --padding-20px: 20px;
+
+}
+
+* {
+    /*tirar os espaçametos total do site*/
+    margin: 0px;
+    padding: 0px;
+    transition: all 1s;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#cabecalho{
+    background-color: var(--cor-topo);
+    /* display flex deixa em linha, space-between ajusta a linha e o aling itens centraliza*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#cabecalho nav a {
+    text-decoration: none;
+    color: var(--cor-branca);
+    padding: 5px;
+    border-radius: 15px;
+    background-color: var(--cor-corpo);
+}
+
+#corpo{
+    background-color: var(--cor-corpo);
+}
+#corpo h1{
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 30px;
+}
+
+#corpo .botao{
+    border-radius: 15px;
+    padding: var(--padding-20px);
+    border: none;
+    cursor: pointer;
+}
+
+#corpo .formulario div{
+    padding: var(--padding-20px);
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.logind h1{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    border: 30px;
+    padding: 15px;
+}
+
+#rodape{
+    background-color: var(--cor-rodape);
+    text-align: center;
+    padding: 15px;
+}
+
+#rodape .logorod{
+    padding: 10px;
+}
+
+#rodape p{
+    color: var(--cor-branca);
+}
+
+#rodape p{
+    padding: 10px;
+}
+
+#rodape .cttemp img{
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.formulario label{
+    display: block;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.formulario input{
+    padding: 18px 25px;
+    background-color: rgba(255, 255, 255, 0.67);
+    border: none;
+    border-radius: 25px;
+    width: 93%;
+}
+
+.formulario button{
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px;
+    background-color: var(--cor-corpo);
+}
+
+.formulario{
+    width: 575px;
+    margin: 100px;
+}
+
+.formulario .form1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+.logind{
+    text-align: center;
+}
+
+.line{
+    border-bottom: 3px solid;
+    width: 45%;
+    display: block;
+    margin: 0 auto;
+}
+
+.form2 label{
+    padding-left: 30px;
+}
+
+form{
+    margin-top: -50px;
+}
+
+.img1{
+    width: 80px;
+}
+
+.logind img{
+    width: 400px;
+}
+
+.logind h1{
+    margin-top: 20px;
+}
